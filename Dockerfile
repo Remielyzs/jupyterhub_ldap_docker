@@ -1,3 +1,3 @@
-FROM registry.ipv6.docker.com/jupyterhub/jupyterhub
+FROM jupyterhub/jupyterhub
 RUN pip install jupyterhub-ldapauthenticator
 RUN pip install dockerspawner
